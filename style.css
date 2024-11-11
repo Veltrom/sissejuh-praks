@@ -1,0 +1,57 @@
+/* Liigutatud stiilid "index.html" failist */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* Lehe pealkirja stiil */
+h1 {
+    color: #2E8B57;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Teksti stiil */
+p {
+    color: #333333;
+    font-size: 18px;
+    font-family: 'Times New Roman', serif;
+    text-align: justify;
+}
+
+/* Pildi stiil */
+img {
+    border: 5px solid #555555;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Tabeli stiil */
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+/* Lehe taustavärv */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Lehe kaheks jaotamine */
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
